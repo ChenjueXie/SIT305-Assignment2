@@ -1,0 +1,50 @@
+//我方飞机
+int LIFEAMOUNT;初始生命值
+int MISSILECOUNT;// 初始导弹数
+int LIFE_MAXCOUNT;// 生命最大值
+int MISSILE_MAXCOUNT;// 导弹最大存有量
+int GAMESPEED;// 游戏初始速度倍率
+int MAXGRADE;// 游戏最高等级/速度倍率(游戏速度跟游戏等级相关，等级越高，速度越快)
+int LEVELUP_SCORE;// 升级所需的积分
+
+//敌机血量
+int SMALLPLANE_BLOOD;// 小型机
+int MIDDLEPLANE_BLOOD;// 中型机
+int BIGPLANE_BLOOD;// 大型机
+int BOSSPLANE_BLOOD;// Boss总血量
+int BOSSPLANE_ANGER_BLOOD;// Boss进入愤怒状态的血量值（小于Boss总血量）
+int BOSSPLANE_CRAZY_BLOOD;// Boss进入疯狂状态的血量值（小于Boss愤怒状态的血量）
+int BOSSPLANE_LIMIT_BLOOD;// Boss进入极限状态的血量值（小于Boss疯狂状态的血量）
+
+//敌机分数
+int SMALLPLANE_SCORE;// 小型机
+int MIDDLEPLANE_SCORE;// 中型机
+int BIGPLANE_SCORE;// 大型机
+int BOSSPLANE_SCORE;// Boss
+
+//物品出现所需的积分值
+int MIDDLEPLANE_APPEARSCORE;// 中型机
+int BIGPLANE_APPEARSCORE;// 大型机
+int BOSSPLANE_APPEARSCORE;// Boss
+int MISSILE_APPEARSCORE;// 导弹
+int LIFE_APPEARSCORE;// 生命
+int BULLET1_APPEARSCORE;// 子弹1
+int BULLET2_APPEARSCORE;// 子弹2
+
+//伤害值
+int MISSILE_HARM;// 导弹
+int MYBULLET_HARM;// 我方初始子弹(默认值为1)
+int MYBULLET1_HARM;// 我方子弹1
+int MYBULLET2_HARM;// 我方子弹2
+
+//我军速度
+int MYBULLET_SPEED;// 原始子弹速度
+int MYBULLET1_SPEED;// 子弹1速度
+int MYBULLET2_SPEED;// 子弹2速度
+int MYPLANE_SPEED;// 机体速度
+			
+//持续显示时间
+long BOOM_TIME;// 我方飞机炸毁
+long INVINCIBLE_TIME;// 我方飞机无敌模式
+long MISSILEBOOM_TIME;// 我方导弹爆炸
+long MYSPECIALBULLET_DURATION;// 我方特殊子弹
